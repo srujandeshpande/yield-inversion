@@ -88,11 +88,11 @@ newdf.info()
 y=newdf['sub']
 x=newdf['Date']
 recdf = fullrecdf[(fullrecdf['DATE'].dt.year >= 1990)]
-plt.plot(recdf['DATE'],recdf['JHDUSRGDPBR'],color="red")
 plt.xlabel('Date')
 plt.ylabel('Diference in Interest Rate (%)')
 plt.title("10 Year Yield - 2 Year Yield vs. Time with Recessions Highlighted")
 plt.plot(x,y)
+plt.plot(recdf['DATE'],recdf['JHDUSRGDPBR'],color="red")
 plt.axhline(y=0.0, color='black', linestyle='-')
 plt.show()
 

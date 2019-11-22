@@ -105,3 +105,11 @@ accuracy=accuracy_score(y_pred,y_test)
 y_pred[0]
 y_test
 
+
+
+
+
+
+
+
+
