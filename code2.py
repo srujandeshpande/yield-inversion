@@ -18,7 +18,3 @@ plt.ylabel('interest rate(%)')
 plt.plot(x,y)
 plt.show()
 print(df['Date'])
-
-
-
-

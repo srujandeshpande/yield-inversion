@@ -105,7 +105,7 @@ y_pred=clf.predict(x_test)
 for i in range(0,len(y_pred)):
     if y_pred[i]>=0.245:
         y_pred[i]=1
-    else:  
+    else:
         y_pred[i]=0
 
 # =============================================================================
@@ -129,7 +129,7 @@ for i in range(0,len(newy)):
     if newy[i]>=0.245:
         print(len(newy)-i,newy[i])
         newy[i]=1
-    else:  
+    else:
         newy[i]=0
-        
+
 len(newy)

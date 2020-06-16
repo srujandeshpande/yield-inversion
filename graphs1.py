@@ -95,4 +95,3 @@ plt.plot(x,y)
 plt.plot(recdf['DATE'],recdf['JHDUSRGDPBR'],color="red")
 plt.axhline(y=0.0, color='black', linestyle='-')
 plt.show()
-

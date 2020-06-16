@@ -42,7 +42,7 @@ newdf = newdf[newdf.DTB3 != '.']
 
 newdf
 
-#newdf['diff'] = newdf.DGS10 - newdf.DTB3 
+#newdf['diff'] = newdf.DGS10 - newdf.DTB3
 
 newdf
 
@@ -92,7 +92,7 @@ for i in range(0,len(y_pred)):
     print (y_pred[i])
     if y_pred[i]>=.2:       # setting threshold to .5
        y_pred[i]=1
-    else:  
+    else:
        y_pred[i]=0
 
 
@@ -104,12 +104,3 @@ from sklearn.metrics import accuracy_score
 accuracy=accuracy_score(y_pred,y_test)
 y_pred[0]
 y_test
-
-
-
-
-
-
-
-
-
